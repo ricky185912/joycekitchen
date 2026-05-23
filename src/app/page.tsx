@@ -55,7 +55,7 @@ export default function Home() {
           {/* Main Heading with Stronger Text Shadows */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8">
             <span className="block text-white drop-shadow-2xl animate-slide-up [text-shadow:0_2px_10px_rgba(0,0,0,0.5)]">
-              ICACIES FLAVORS
+              DELICACIES FLAVORS
             </span>
             <span className="block shine-text animate-slide-up animation-delay-200 [text-shadow:0_2px_10px_rgba(0,0,0,0.3)]">
               & SEASONS
@@ -71,6 +71,11 @@ export default function Home() {
           <p className="text-white/95 text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-slide-up animation-delay-400 leading-relaxed drop-shadow-lg">
             Experience the perfect blend of traditional recipes and modern culinary artistry, 
             delivered fresh from our cloud kitchen to your doorstep.
+          </p>
+
+          <p className="text-white/95 text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-slide-up animation-delay-400 leading-relaxed drop-shadow-lg">
+            cloud kitchen to your doorstep. Whether you're craving a quick bite or planning a special event, 
+            Joyce Kitchen is your go-to destination for unforgettable flavors and exceptional service.
           </p>
 
           {/* CTA Buttons */}

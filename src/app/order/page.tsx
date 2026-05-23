@@ -10,7 +10,6 @@ export default function OrderPage() {
 
   const phoneNumber = "9790735405";
   const whatsappNumber = "9790735405";
-  const alternateNumbers = ["9363791814", "8438166305"];
 
   const orderOptions = [
     {
@@ -137,7 +136,7 @@ export default function OrderPage() {
         {/* Contact Numbers Section */}
         <div className="max-w-4xl mx-auto mb-16 animate-slide-up animation-delay-600">
           <div className="glass-premium rounded-2xl p-6 border border-gold/30 backdrop-blur-xl">
-            <h3 className="text-gold text-xl font-semibold mb-4 text-center">📞 Direct Contact Numbers</h3>
+            <h3 className="text-gold text-xl font-semibold mb-4 text-center"> Direct Contact Numbers</h3>
             <div className="flex flex-col md:flex-row justify-center gap-4">
               <a
                 href={`tel:${phoneNumber}`}
@@ -147,16 +146,6 @@ export default function OrderPage() {
                 <span className="text-white font-medium">{phoneNumber}</span>
                 <span className="text-gold-light text-sm">(Primary)</span>
               </a>
-              {alternateNumbers.map((num, idx) => (
-                <a
-                  key={idx}
-                  href={`tel:${num}`}
-                  className="flex items-center justify-center gap-3 px-6 py-3 glass-beige rounded-xl hover:bg-gold/10 transition-all duration-300 group"
-                >
-                  <Phone size={20} className="text-gold group-hover:scale-110 transition-transform" />
-                  <span className="text-white/80 font-medium">{num}</span>
-                </a>
-              ))}
             </div>
           </div>
         </div>
